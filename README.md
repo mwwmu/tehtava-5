@@ -10,4 +10,6 @@ HomeController.cs -tiedosto taas edustaa controller-koodia. Tehtävänannossa ma
 <br/>
 Harjoituksessa tuotteiden hinnat eivät näkyneet, mutta kun korvasin Product.cshtml-koodissa Price-paragraafin sisällön Productin FormattedPrice-ominaisuudella, alkoivat myös hinnat näkyä.
 <br/>
+...
 Eli: <p>Price: $@product.Price</p> => <p>Price: @product.FormattedPrice</p>
+...
